@@ -1,11 +1,8 @@
 {
   "buildCommand": "pnpm build",
   "functions": {
-    "api/index.js": {
-      "includeFiles": "dist/generated/prisma/**"
-    },
-    "api/[...path].js": {
-      "includeFiles": "dist/generated/prisma/**"
+    "src/index.ts": {
+      "includeFiles": "**/generated/prisma/**"
     }
   }
 }

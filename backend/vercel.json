@@ -3,6 +3,9 @@
   "functions": {
     "api/index.js": {
       "includeFiles": "dist/generated/prisma/**"
+    },
+    "api/[...path].js": {
+      "includeFiles": "dist/generated/prisma/**"
     }
   }
 }
